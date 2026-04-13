@@ -29,7 +29,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qto-zK-DXv">
-                                        <rect key="frame" x="92.333333333333371" y="56" width="89.333333333333314" height="64"/>
+                                        <rect key="frame" x="92.333333333333343" y="56" width="89.333333333333343" height="64"/>
                                         <color key="backgroundColor" red="0.1141967773" green="0.1264648438" blue="0.4008789062" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="u06-wJ-cUd"/>
@@ -57,6 +57,9 @@
                             <constraint firstItem="dh0-T3-suR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rsL-ka-Tmb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textLabel" destination="Z67-HV-glP" id="rkv-Fq-qaP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
