@@ -10,22 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func pressedNumber(_ sender: UIButton) {
-        print("button pressed :\(sender.titleLabel!.text!)")
-    }
-    
-    @IBAction func decimalPressed(_ sender: UIButton) {
-        print("button pressed :\(sender.titleLabel!.text!)")
-    }
-    @IBAction func pressedOperator(_ sender: UIButton) {
-        print("button pressed :\(sender.titleLabel!.text!)")
-    }
-    
-    @IBAction func ACButton(_ sender: UIButton) {
-        print("button pressed :\(sender.titleLabel!.text!)")
-    }
-    
-    @IBAction func CButton(_ sender: UIButton) {
+    @IBOutlet weak var inputVal: UILabel!
+    @IBOutlet weak var resVal: UILabel!
+
+    @IBAction func inputButtonPressed(_ sender: UIButton) {
         print("button pressed :\(sender.titleLabel!.text!)")
     }
     
