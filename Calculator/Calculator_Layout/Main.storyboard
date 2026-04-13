@@ -86,6 +86,9 @@
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CButton:" destination="ey4-0b-agg" eventType="touchUpInside" id="9yj-zu-KMb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xg-es-CLv">
                                                 <rect key="frame" x="322.33333333333331" y="0.0" width="79.666666666666686" height="113"/>
@@ -94,6 +97,9 @@
                                                 <state key="normal" title="AC">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="ACButton:" destination="ey4-0b-agg" eventType="touchUpInside" id="lcI-DO-2oM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -140,6 +146,9 @@
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pressedOperator:" destination="ey4-0b-agg" eventType="touchUpInside" id="Zbc-ZG-sCj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PhP-NO-Xod">
                                                 <rect key="frame" x="322.33333333333331" y="0.0" width="79.666666666666686" height="112.66666666666667"/>
@@ -148,6 +157,9 @@
                                                 <state key="normal" title="-">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pressedOperator:" destination="ey4-0b-agg" eventType="touchUpInside" id="eLI-df-4O2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -194,6 +206,9 @@
                                                 <state key="normal" title="×">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pressedOperator:" destination="ey4-0b-agg" eventType="touchUpInside" id="ucP-Ka-2ce"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G64-9b-ycy">
                                                 <rect key="frame" x="322.33333333333331" y="0.0" width="79.666666666666686" height="113"/>
@@ -202,6 +217,9 @@
                                                 <state key="normal" title="/">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pressedOperator:" destination="ey4-0b-agg" eventType="touchUpInside" id="FZ8-Fs-gkS"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -226,6 +244,9 @@
                                                 <state key="normal" title=".">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="decimalPressed:" destination="ey4-0b-agg" eventType="touchUpInside" id="fat-qh-LwE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gH6-HQ-lB4">
                                                 <rect key="frame" x="161.33333333333334" y="0.0" width="79.333333333333343" height="112.66666666666667"/>
@@ -234,6 +255,9 @@
                                                 <state key="normal" title="00">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pressedNumber:" destination="ey4-0b-agg" eventType="touchUpInside" id="PeT-gK-xVp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAA-Us-TjT">
                                                 <rect key="frame" x="241.66666666666666" y="0.0" width="79.666666666666657" height="112.66666666666667"/>
@@ -242,6 +266,9 @@
                                                 <state key="normal" title="%">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pressedOperator:" destination="ey4-0b-agg" eventType="touchUpInside" id="ope-nn-ITG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGk-T1-huW">
                                                 <rect key="frame" x="322.33333333333331" y="0.0" width="79.666666666666686" height="112.66666666666667"/>
@@ -250,6 +277,9 @@
                                                 <state key="normal" title="=">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pressedOperator:" destination="ey4-0b-agg" eventType="touchUpInside" id="OiQ-c0-gZN"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

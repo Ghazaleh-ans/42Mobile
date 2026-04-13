@@ -13,6 +13,22 @@ class ViewController: UIViewController {
     @IBAction func pressedNumber(_ sender: UIButton) {
         print(sender.titleLabel!.text!)
     }
+    
+    @IBAction func decimalPressed(_ sender: UIButton) {
+        print(sender.titleLabel!.text!)
+    }
+    @IBAction func pressedOperator(_ sender: UIButton) {
+        print(sender.titleLabel!.text!)
+    }
+    
+    @IBAction func ACButton(_ sender: UIButton) {
+        print(sender.titleLabel!.text!)
+    }
+    
+    @IBAction func CButton(_ sender: UIButton) {
+        print(sender.titleLabel!.text!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
