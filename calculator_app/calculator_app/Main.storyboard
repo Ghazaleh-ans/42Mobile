@@ -271,6 +271,9 @@
                                                 <state key="normal" title="=">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="calculate:" destination="ey4-0b-agg" eventType="touchUpInside" id="Cf0-Ug-6bF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
