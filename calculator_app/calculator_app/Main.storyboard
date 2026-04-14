@@ -86,6 +86,9 @@
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="inputButtonPressed:" destination="ey4-0b-agg" eventType="touchUpInside" id="cBt-1A-xKL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xg-es-CLv">
                                                 <rect key="frame" x="322.33333333333331" y="0.0" width="79.666666666666686" height="113"/>
@@ -94,6 +97,9 @@
                                                 <state key="normal" title="AC">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="inputButtonPressed:" destination="ey4-0b-agg" eventType="touchUpInside" id="dQr-2B-yNM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
